@@ -14,15 +14,25 @@ body{
     font-size: 40px;
     color: rgb(235, 18, 18);
 }
+.logo2{
+  font-weight:bolder;
+  text-align: unset ;
+  padding: 0%;
+  font-size: 25px;
+  color: rgb(6, 18, 99);
+}
 .navbar-custom {
   padding-top: 10px;
   padding-bottom: 20px;
   /* background: linear-gradient(); */
-  background-image: linear-gradient(to right top, #c0e71e, #39d974, #00bfaa, #009fba, #407ca1);
+  background-color: white;
 }
 .nav-item {
   
-    color: #7510a1;
+    color: #401f0b;
+}
+.nav-item{
+  font-size: 25px;
 }
 .my-3{
   font-size:xx-large;
@@ -308,9 +318,9 @@ body{
 /* End of Team Section*/
 /* Blog Section */
 .ribbon{
-    width: 100px;
-    height: 100px;
-    margin: -10px auto;
+    width: 80px;
+    height: 60px;
+    margin: -30px auto;
     background: #f0d803; 
     position: absolute;
     top: 0;
@@ -452,6 +462,10 @@ opacity: 1;
 .social .list-item:nth-child(4):before,
 .social .list-item:nth-child(4):after{
   background: linear-gradient(45deg,#0791c7, #f794a5);
+}
+
+.container{
+  padding-top: 85px;
 }
 
 
